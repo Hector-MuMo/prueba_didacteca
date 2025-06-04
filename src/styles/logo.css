@@ -1,0 +1,11 @@
+.title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_logo {
+  margin-top: 10px;
+  width: 700px;
+  height: 300px;
+}
