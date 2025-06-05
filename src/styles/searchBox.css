@@ -1,10 +1,4 @@
-.searchbox_container {
-  margin-bottom: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .searchbox_input {
   width: 300px;
+  margin-right: 10px;
 }

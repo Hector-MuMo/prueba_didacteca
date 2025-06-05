@@ -11,10 +11,10 @@ interface CharacterCardProps {
 }
 
 const CharacterCard = ({ character }: CharacterCardProps) => {
-  const { sharingState, setSharingSate } = useStateContext();
+  const { sharingState, setSharingState } = useStateContext();
 
   const handleCharacterInfo = () => {
-    setSharingSate({
+    setSharingState({
       ...sharingState,
       characterInfo: character
     })

@@ -1,0 +1,32 @@
+.favoriteChars-return-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favoriteChars-return-link {
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: greenyellow;
+  color: black;
+  font-size: 16px;
+}
+
+.favoriteChars-list-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favoriteChars-notFound {
+  width: 300px;
+  padding: 10px;
+  background-color: aliceblue;
+  color: red;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 10px;
+}

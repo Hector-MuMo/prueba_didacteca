@@ -3,3 +3,18 @@ img {
   height: 100%;
   border-radius: inherit
 }
+
+.actions-container {
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.action-favs {
+  padding: 5px 15px;
+  background-color: rgb(240, 78, 60);
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}

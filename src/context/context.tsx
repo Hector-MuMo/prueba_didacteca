@@ -7,13 +7,13 @@ interface ProviderProps {
 }
 
 const Provider = ({ children }: ProviderProps) => {
-  const [sharingState, setSharingSate] = useState<SharingState>({
+  const [sharingState, setSharingState] = useState<SharingState>({
     favorites: [],
     characterInfo: {}
   });
 
   return (
-    <MyContext.Provider value={{ sharingState, setSharingSate }}>
+    <MyContext.Provider value={{ sharingState, setSharingState }}>
       {children}
     </MyContext.Provider >
   )

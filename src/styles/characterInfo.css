@@ -24,3 +24,21 @@
   display: flex;
   flex-direction: column;
 }
+
+.characterInfo-notFound {
+  padding: 10px;
+  background-color: aliceblue;
+  color: red;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.characterInfo-return {
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: greenyellow;
+  color: black;
+  font-size: 16px;
+}
