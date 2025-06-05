@@ -1,6 +1,7 @@
 import CharacterCard from './CharacterCard'
 
 import '../styles/charactersList.css'
+import type { Character } from '../types/typeCharacter'
 
 interface CharactersList {
   characters: []
@@ -8,7 +9,7 @@ interface CharactersList {
 
 const CharactersList = ({ characters }: CharactersList) => {
 
-  const list = characters.map(item => <CharacterCard character={item} />)
+  const list = characters.map((item: Character) => <CharacterCard character={item} key={item.id} />)
 
 
   return (
